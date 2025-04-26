@@ -1,0 +1,277 @@
+/* src/components/AdminEditScheme.css */
+
+.admin-edit-scheme {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px; /* Increased padding for better spacing */
+    background-color: #343a40;
+    color: #fff;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px; /* Increased font size for better visibility */
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-right .elevated-btn.logout-btn {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 12px 25px; /* Increased padding for larger button */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-right .elevated-btn.logout-btn:hover {
+    background-color: #e31b0c;
+}
+
+/* Main Content */
+.edit-scheme-content {
+    flex: 1;
+    padding: 40px 60px; /* Increased padding for more space */
+    max-width: 1200px; /* Increased max-width */
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Light background for better contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 30px;
+}
+
+.edit-scheme-content h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+    font-size: 32px; /* Increased font size */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form-group .required {
+    color: red;
+    margin-left: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea,
+.form-group select {
+    padding: 12px 15px; /* Increased padding for better usability */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Increased font size */
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 120px; /* Increased height for better visibility */
+}
+
+.eligibility-criteria,
+.benefits,
+.application-process,
+.required-documents {
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff; /* White background for sections */
+}
+
+.eligibility-criteria legend,
+.benefits legend,
+.application-process legend,
+.required-documents legend {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.age-range {
+    display: flex;
+    align-items: center;
+}
+
+.age-range input[type="number"] {
+    width: 100%;
+}
+
+.age-range span {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.dynamic-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.dynamic-field input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.dynamic-field .remove-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dynamic-field .remove-btn:hover {
+    background-color: #c82333;
+}
+
+.add-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:disabled {
+    background-color: #94d3a2;
+    cursor: not-allowed;
+}
+
+.submit-btn:hover:enabled {
+    background-color: #218838;
+}
+
+/* Error and Success Messages */
+.error {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.success {
+    color: green;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 25px 40px; /* Increased padding */
+    font-size: 16px;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a {
+    color: #fff; /* Set icon color to white */
+    font-size: 28px; /* Increased size */
+    margin: 0 15px;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .edit-scheme-content {
+        padding: 20px 30px;
+        max-width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-right {
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        margin: 0 10px;
+    }
+
+    .footer-links a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .age-range {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .age-range span {
+        display: none;
+    }
+
+    .age-range input[type="number"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

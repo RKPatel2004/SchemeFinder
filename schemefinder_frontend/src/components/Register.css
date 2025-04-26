@@ -1,0 +1,85 @@
+/* Container for the registration form */
+.register-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9; /* Add a subtle background color */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Apply box-sizing to all elements inside the register container */
+.register-container * {
+  box-sizing: border-box;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Style input fields */
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hover effect for button */
+button:hover {
+  background-color: #218838;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Success message styling */
+.success {
+  color: green;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Style the link to the Login page */
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+p a {
+  color: #218838;
+  text-decoration: none;
+}
+
+/* Hover effect for the link */
+p a:hover {
+  text-decoration: underline;
+}

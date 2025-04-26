@@ -1,0 +1,229 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-icon {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.custom-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.digital-india-logo {
+  font-size: 20px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Elevated Button Styling */
+.elevated-btn {
+  margin-left: 15px;
+  padding: 15px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.elevated-btn:hover {
+  background-color: #0056b3;
+  text-decoration: underline;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  margin-right: 30px;
+}
+
+.logout-btn:hover {
+  background-color: #e31b0c;
+}
+
+/* Carousel */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+  min-width: 100%; /* Ensure each slide takes up the full width of the carousel */
+  box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+
+.carousel-slide img {
+  width: 100%; /* Make the image take up the full width of the slide */
+  height: 500px; /* Set a fixed height for the carousel */
+  object-fit: cover; /* Cover the entire carousel area, preserving aspect ratio */
+}
+
+/* Navigation Buttons */
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: lightgrey;
+  color: #000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  width: 40px; /* Width of the square button */
+  height: 40px; /* Height of the square button */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px; /* Slightly rounded corners */
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: #d3d3d3; /* Slightly darker grey on hover */
+}
+
+/* Carousel Dots */
+.carousel-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+
+/* Find Schemes Button */
+.find-schemes-wrapper {
+  text-align: center;
+}
+
+.find-schemes-container {
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.find-schemes-btn {
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.find-schemes-btn:hover {
+  background-color: #218838;
+}
+
+/* Elevated Buttons */
+.elevated-buttons-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.elevated-buttons-container .elevated-btn {
+  padding: 20px 40px;
+  background-color: #c9eabb;
+  color: #343a40;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.elevated-buttons-container .elevated-btn:hover {
+  background-color: #28a745;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

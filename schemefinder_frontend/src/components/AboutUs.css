@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #fff;
+    text-decoration: none; /* Ensure no underline */
+  }
+  
+  .search-icon {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .custom-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+  .digital-india-logo {
+    font-size: 20px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Elevated Button Styling */
+  .elevated-btn {
+    margin-left: 15px;
+    padding: 15px 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .elevated-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout-btn {
+    background-color: #f44336;
+    margin-right: 30px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e31b0c;
+  }
+  
+  /* Main Content */
+  .about-us-page main {
+    padding: 70px;
+    text-align: center;
+  }
+  
+  .page-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    margin: 20px 0;
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #343a40;
+    text-align: left;
+  }
+  
+  /* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-icons {
+    margin: 10px 0;
+  }
+  
+  .social-icons a {
+    color: #fff; /* Set icon color to white */
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0 10px;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  

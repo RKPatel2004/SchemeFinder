@@ -1,0 +1,184 @@
+.feedback-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-icon {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.custom-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.digital-india-logo {
+    font-size: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Elevated Button Styling */
+.elevated-btn {
+    margin-left: 15px;
+    padding: 15px 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.elevated-btn:hover {
+    background-color: #0056b3;
+}
+
+.logout-btn {
+    background-color: #f44336;
+    margin-right: 30px;
+}
+
+.logout-btn:hover {
+    background-color: #e31b0c;
+}
+
+/* Feedback Form styling */
+.feedback-container {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    padding: 80px;
+}
+
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.feedback-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.feedback-form .read-only-input {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #218838; /* Change to the correct hover color */
+}
+
+.success-message {
+    color: #28a745;
+    margin-top: 1rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    color: #fff; /* Set icon color to white */
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0 10px;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #fff;
+    text-decoration: none; /* Ensure no underline */
+  }
+  
+  .search-icon {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .custom-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+  .digital-india-logo {
+    font-size: 20px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Elevated Button Styling */
+  .elevated-btn {
+    margin-left: 15px;
+    padding: 15px 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .elevated-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout-btn {
+    background-color: #f44336;
+    margin-right: 30px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e31b0c;
+  }
+  
+  /* Main Form Styles */
+  .find-schemes-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group p{
+    color: red;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .find-schemes-btn,
+  .clear-form-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .find-schemes-btn:hover,
+  .clear-form-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-icons {
+    margin: 10px 0;
+  }
+  
+  .social-icons a {
+    color: #fff; /* Set icon color to white */
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0 10px;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  

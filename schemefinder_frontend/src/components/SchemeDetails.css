@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Scheme Details */
+  
+  .details-container {
+    padding: 60px 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-container h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .details-container p {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .details-container h3 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  
+  .details-container ul,
+  .details-container ol {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  
+  .details-container li {
+    margin-bottom: 10px;
+  }
+  
+  /* Feedback Button */
+  .feedback-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .give-feedback-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .give-feedback-btn:hover {
+    background-color: #218838;
+  }
+
+  /* Footer */
+.footer {
+  text-align: center;
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+  

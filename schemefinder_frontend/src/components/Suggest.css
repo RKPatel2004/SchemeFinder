@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column; /* Flex column layout */
+  min-height: 100vh; /* Ensure the body takes at least full viewport height */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #343a40;
+  color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; 
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 5px;
+  color: #fff;
+  text-decoration: none; /* Ensure no underline */
+}
+
+.search-icon {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.custom-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.digital-india-logo {
+  font-size: 20px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Elevated Button Styling */
+.elevated-btn {
+  margin-left: 15px;
+  padding: 15px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.elevated-btn:hover {
+  background-color: #0056b3;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  margin-right: 30px;
+}
+
+.logout-btn:hover {
+  background-color: #e31b0c;
+}
+
+/* Suggest Page Styles */
+.suggest-page {
+  padding: 80px 20px 0px 0px;
+  text-align: center;
+  flex: 1; /* Allow the main content to grow and fill space */
+}
+
+.scheme-cards-container {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center; /* Center cards */
+  gap: 20px;
+}
+
+.scheme-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  border: 2px solid #28a745;
+  padding: 20px;
+  width: 80%; /* Take 80% width */
+  max-width: 600px; /* Optional: max width */
+  text-align: center; /* Center text */
+}
+
+.scheme-name {
+  font-size: 24px; /* Large font size */
+  font-weight: bold; /* Bold font */
+  margin: 0 0 10px;
+}
+
+.scheme-description {
+  font-size: 16px; /* Adjusted for better readability */
+}
+
+.know-more-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.know-more-btn:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+

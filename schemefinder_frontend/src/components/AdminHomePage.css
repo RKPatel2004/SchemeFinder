@@ -1,0 +1,168 @@
+.admin-homepage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-right .elevated-btn.logout-btn {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar-right .elevated-btn.logout-btn:hover {
+  background-color: #e31b0c;
+}
+
+/* Main Content */
+.admin-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.add-schemes-wrapper {
+  text-align: center;
+}
+
+.add-scheme-button {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  width: 150px;
+  align-items: center;
+  display: inline-block;
+  text-align: center;
+}
+
+.add-scheme-button .add-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-scheme-button .add-btn:hover {
+  background-color: #218838;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.action-btn {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  width: auto;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  width: auto;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icons {
+  margin: 10px 0;
+}
+
+.social-icons a {
+  color: #fff; 
+  font-size: 24px; 
+  margin: 0 10px;
+  text-decoration: none; 
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff; 
+}
+
+
